@@ -7,5 +7,3 @@ if " ".join(nombreCompleto) == "Joaquin Aragón Pineda":
     print(nombre+"chinga tu madre, eres un maricón")
 else:
     print(" ".join(nombreCompleto))
-
-
