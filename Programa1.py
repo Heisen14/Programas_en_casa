@@ -11,5 +11,3 @@ elif " ".join(nombreCompleto) == "Daniel Aragón Pineda":
     print(nombre+" eres una chingonería y puedes hacer todo lo que te propongas")
 else:
     print(" ".join(nombreCompleto))
-
-
