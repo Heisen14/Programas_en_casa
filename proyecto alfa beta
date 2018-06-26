@@ -26,4 +26,3 @@ if  c==diccionarioA[3]:
 ##                peli+=1
 else:
     contador+=1
-            
