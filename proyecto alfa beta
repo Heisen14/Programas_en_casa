@@ -5,15 +5,18 @@ with open("usuarios.txt") as usuarios:
     usuarios = usuarios.readlines()
     diccionarioA = {}
     diccionarioB = {}
-    diccionarioC = {}
-    intentos = 0
-    print("intento ", intentos,"de 3")
-    usu=1
+##    diccionarioC = {}
+    intentos = 1
+##    print("intento ", intentos,"de 3")
+##    usu=1
     u=input("Usuario: ")
     c=input("Contraseña: ")
+    contador=1
 for usuario in usuarios:
-    u==usuario.split('|')[0] and c==usuario.split('|')[1]      
-if  u==usuario.split('|')[0] and c==usuario.split('|')[1]:
+    diccionarioA[contador]=usuario.split('|')[1]
+    diccionarioB[contador]=usuario.split('|')[0]
+    contador+=1
+if  c==diccionarioA[3]:
     print("Hola")
 ##           with open("peliculas.txt") as peliculas:
 ##                        peliculas = peliculas.readlines()
@@ -22,5 +25,5 @@ if  u==usuario.split('|')[0] and c==usuario.split('|')[1]:
 ##                print(peli,'.',pelicula)
 ##                peli+=1
 else:
-    intentos+=1
+    contador+=1
             
