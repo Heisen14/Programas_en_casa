@@ -38,3 +38,23 @@ with open("usuarios.txt") as usuarios:
     
     exit()
     
+            
+            
+##        else:
+        
+            
+    
+      
+
+        
+            
+##        if (c==diccionario[contador]):
+##                print("ingresaste")
+##        else:
+##            intentos += 1
+##            print("contraseña incorrecta")
+
+            
+
+           
+    
