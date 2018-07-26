@@ -1,9 +1,16 @@
-##Un palíndromo es una palabra o frase que se lee igual al derecho y al revés, por ejemplo "anita lava la tina". Tú tarea será crear un programa que reciba una frase como input (esto está automatizado gracias a AutoGradr) y determine si esta frase es un palíndromo.
+##Crea un programa que use la lista de números que está adjunta y reciba un número del usuario. Tu programa buscará en la lista la suma que sea igual al número que ingresó el usuario.
+lista=[5, 2, 3, 1, 6, 7, 90, 4, 3, 8]
+num = int(input())
+x={}
+list=[]
+for x in lista:
+    for y in lista:
+        if x == y:
+            x+y
+        elif x+y == num:
+            x[x]=y
 
-palindromo=input("Escribe una frase: ")
-pal=palindromo.split()
-
-##if pal.reverse()==pal:
-##    print("La frase que ingresaste SÍ es un palindromo")
-##else:
-##    print("La frase que ingresaste NO es un palindromo")
+for x in lista:
+    for y in lista:
+        if x in x:
+            list.append()
